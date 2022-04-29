@@ -15,4 +15,4 @@ Add SonarSacn.sh /bin/SonarSacn.sh
 
 WORKDIR /data
 
-chmod a+x /bin/SonarSacn.sh
+RUN chmod a+x /bin/SonarSacn.sh
