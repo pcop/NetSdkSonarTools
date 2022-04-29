@@ -9,9 +9,10 @@
 * 運行範例
   ```bash
   docker run --rm -it \
-      -e PrjKey="TestProjWeb"
-      -e PrjName="2022測試專案"
-      -e SonarToken="***3720228***ad7a***d2a***ff6***223***58"
+      -e PrjKey="TestProjWeb" \
+      -e PrjName="2022測試專案" \
+      -e SonarToken="***3720228***ad7a***d2a***ff6***223***58" \
+      -e SonarUrl="https://sonartest.eri.com.tw" \
       -v "$HOME/.nuget":/root/.nuget \
       -v "$PWD":/data \
       ghcr.io/pcop/netsdksonartools:main \
